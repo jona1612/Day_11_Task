@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden;
+            background-color: rgb(82, 80, 90);
+
+        }
+
+        .box {
+            background-color: aliceblue;
+            border: 4px solid black;
+            margin-block-start: 10em;
+        }
+
+        .head {
+
+            width: 500px;
+            margin-left: 350px;
+            margin-top: 100px;
+        }
+
+        .title {
+            background-color: red;
+            margin: 5px 5px 5px 5px;
+            padding: 0.3em;
+            color: whitesmoke;
+            font-size: 1.4em;
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .one {
+            margin-left: 30px;
+            padding: 4px;
+            border: none;
+            border-bottom: 2px solid black;
+            width: 180px;
+        }
+
+        .names {
+            margin-left: 145px;
+        }
+
+        .name {
+            margin-left: 35px;
+        }
+
+        .second {
+            margin-left: 35px;
+            width: 400px;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        #add {
+            margin-left: 35px;
+        }
+
+        .third {
+            width: 100px;
+            margin-left: 35px;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        .four {
+            margin-left: 35px;
+        }
+
+        .five {
+            margin-left: 110px;
+        }
+
+        .six {
+            margin-left: 110px;
+        }
+
+        .subscribe {
+            margin-left: 30px;
+            font-weight: bolder;
+            margin-bottom: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="head">
+        <div class="box">
+            <div>
+                <p class="title"> Yes! I Want to subscribe to<i>Mag-O-Zine</i></p>
+            </div>
+            <div class="input">
+                <div>
+                    <input class="one" type="text" name="firstname" placeholder="jonathan">
+                    <input class="one" type="text" name="lastname" placeholder="p"> <br>
+                    <span class="name">First Name</span>
+                    <span class="names">Last Name</span>
+                </div>
+                <div>
+                    <input class="second" type="text" placeholder="street"> <br>
+                    <span id="add">Address</span>
+                </div>
+                <div>
+                    <input class="third" type="text" name="city" placeholder="chennai">
+                    <input class="third" type="text" name="State" placeholder="TamilNadu">
+                    <input class="third" type="text" name=" zip" placeholder="600001"> <br>
+                    <span class="four">City</span>
+                    <span class="five">State</span>
+                    <span class="six">Zip</span>
+                </div>
+            </div>
+            <div class="subscribe">
+                Subscribe for:
+                <input type="checkbox"> 1 Year($19.95)
+                <input type="checkbox"> 2 Years($35.00)
+            </div>
+            <div class="subscribe">
+                Send me more information about :
+            </div>
+            <div class="subscribe">
+                <input type="checkbox" name="computer"> Computer-Zine<br>
+                <input type="checkbox" name="fish"> Fishing-Zine<br>
+                <input type="checkbox" name="cat"> Cat-O-Zine
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
